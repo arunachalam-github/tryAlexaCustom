@@ -1,0 +1,49 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "india quiz voice",
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.PauseIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          },
+          {
+            "name": "TellMeAboutIntent",
+            "slots": [],
+            "samples": [
+              "tell me about India",
+              "say hi to India",
+              "India",
+              "tell about tamil nadu",
+              "hi",
+              "say india",
+              "say about india"
+            ]
+          },
+          {
+            "name": "AMAZON.FallbackIntent",
+            "samples": []
+          }
+        ],
+        "types": [],
+        "modelConfiguration": {
+          "fallbackIntentSensitivity": {
+            "level": "LOW"
+          }
+        }
+      }
+    },
+    "version": "2"
+  }

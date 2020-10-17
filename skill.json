@@ -1,0 +1,30 @@
+{
+    "manifest": {
+        "apis": {
+            "custom": {
+                "endpoint": {
+                    "sourceDir": "lambda"
+                }
+            }
+        },  
+        "manifestVersion": "1.0",
+        "publishingInformation": {
+            "category": "KNOWLEDGE_AND_TRIVIA",
+            "locales": {
+                "en-US": {
+                "description": "You can ask anything about India",
+                "examplePhrases": [
+                    "Alexa tell me about India"
+                ],
+                "keywords": [
+                    "space",
+                    "facts",
+                    "trivia"
+                ],
+                "name": "India Quiz Voice",
+                "summary": "Learn fun facts about India."
+                }
+            }
+        }
+    }
+}
